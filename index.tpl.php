@@ -12,7 +12,7 @@
 
   	</form>
 <?php  if(isset($output)) { ?>
-  <h3>Short URL is: <?php echo $output; ?></h3>
+  <h3>Short URL is: <a href="<?php echo $output; ?>" target="__blank"><?php echo $output; ?></a></h3>
 
  <?php } ?>
 
